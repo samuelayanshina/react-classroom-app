@@ -1,8 +1,8 @@
 {
-  "name": "mern-classroom",
-  "version": "2.0.0",
-  "description": "A MERN stack based online classroom application",
-  "author": "Shama Hoque",
+  "name": "react-classroom-app",
+  "version": "1.0.0",
+  "description": "A MERN stack virtual classroom platform built by Samuel Ayanshina",
+  "author": "Samuel Ayanshina",
   "license": "MIT",
   "keywords": [
     "react",
@@ -13,9 +13,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/shamahoque/mern-classroom.git"
+    "url": "https://github.com/samuelayanshina/react-classroom-app.git"
   },
-  "homepage": "https://github.com/shamahoque/mern-classroom",
+  "homepage": "https://github.com/samuelayanshina/react-classroom-app",
   "main": "./dist/server.generated.js",
   "scripts": {
     "development": "nodemon",
