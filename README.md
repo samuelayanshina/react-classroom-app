@@ -1,21 +1,35 @@
-# MERN Classroom
+# 🎓 React Classroom App
 
-A simple web-based classroom application that allows instructors to add courses with lessons, while students can enroll in these courses and track their progress. - developed using React, Node, Express and MongoDB.
+A full-stack MERN app for managing virtual classrooms — includes teacher/student roles, video lessons, and secure access.
 
-![MERN Skeleton](https://mernbook.s3.amazonaws.com/git+/classroom.png "MERN Skeleton") 
+## 🔧 Features
+- Create and manage courses
+- Secure login & authentication
+- Video upload and playback
+- Role-based access (Student vs Teacher)
+- Clean responsive UI
 
-### [Live Demo](http://classroom.mernbook.com/ "MERN Classroom") 
+## 🚀 Tech Stack
+- React (frontend)
+- Node.js & Express (backend)
+- MongoDB (database)
+- Material-UI (design system)
+- Webpack + Babel
 
-#### What you need to run this code
-1. Node (13.12.0)
-2. NPM (6.14.4) or Yarn (1.22.4)
-3. MongoDB (4.2.0)
+## 👨‍💻 Author
+Built and customized by [Samuel Ayanshina](https://github.com/samuelayanshina)
 
-####  How to run this code
-1. Make sure MongoDB is running on your system
-2. Clone this repository
-3. Open command line in the cloned folder,
-   - To install dependencies, run ```  npm install  ``` or ``` yarn ```
-   - To run the application for development, run ```  npm run development  ``` or ``` yarn development ```
-4. Open [localhost:3000](http://localhost:3000/) in the browser
-----
+## 🛠️ Setup Instructions
+
+```bash
+# Step 1: Install dependencies
+cd client && yarn install
+cd ../server && yarn install
+
+# Step 2: Run backend
+cd ../server
+node server.js
+
+# Step 3: Run frontend (in another terminal)
+cd ../client
+yarn start
